@@ -1,0 +1,3 @@
+[submodule "lib/photon"]
+	path = lib/photon
+	url = https://github.com/thomasxiii/photon
