@@ -1,4 +1,19 @@
+@import 'functions';
+
 body {
+	background-color: white;
+	color: #333;
+	padding: 20px;
+}
+
+#container {
+	
+}
+#map {
+	display: block;
+	width: 300px;
+	height: 300px;
 	background-color: red;
-	color: white;
+	
+	@include css3(transform, rotateX(70deg) rotateZ(30deg));
 }

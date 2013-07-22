@@ -1,0 +1,6 @@
+@mixin css3($property, $value...) {
+	#{$property}: $value;
+	-moz-#{$property}: $value;
+	-webkit-#{$property}: $value;
+	-ms-#{$property}: $value;
+}
